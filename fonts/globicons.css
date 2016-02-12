@@ -1,0 +1,195 @@
+@font-face {
+	font-family: 'globicon';	
+	src:url('globicon.woff?-wg8rxn') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="globicon-"], [class*=" globicon-"] {
+	font-family: 'globicon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	
+	/* Enable Ligatures ================ */
+	letter-spacing: 0;
+	-webkit-font-feature-settings: "liga";
+	-moz-font-feature-settings: "liga=1";
+	-moz-font-feature-settings: "liga";
+	-ms-font-feature-settings: "liga" 1;
+	-o-font-feature-settings: "liga";
+	font-feature-settings: "liga";
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.globicon-warning:before {
+	content: "\e611";
+}
+.globicon-danger:before {
+	content: "\e612";
+}
+.globicon-info:before {
+	content: "\e613";
+}
+.globicon-circle-full:before {
+	content: "\e614";
+}
+.globicon-circle-half:before {
+	content: "\e615";
+}
+.globicon-chevron-down:before {
+	content: "\e601";
+}
+.globicon-chevron-right:before {
+	content: "\e602";
+}
+.globicon-processing:before {
+	content: "\e603";
+}
+.globicon-share:before {
+	content: "\e604";
+}
+.globicon-arrow-up:before {
+	content: "\e605";
+}
+.globicon-arrow-down:before {
+	content: "\e606";
+}
+.globicon-close:before {
+	content: "\e607";
+}
+.globicon-checkmark:before {
+	content: "\e608";
+}
+.globicon-detail-report:before {
+	content: "\e609";
+}
+.globicon-wrench:before {
+	content: "\e60a";
+}
+.globicon-cog:before {
+	content: "\e60b";
+}
+.globicon-calendar:before {
+	content: "\e60c";
+}
+.globicon-tag:before {
+	content: "\e60d";
+}
+.globicon-accounts:before {
+	content: "\e60e";
+}
+.globicon-single-account:before {
+	content: "\e60f";
+}
+.globicon-summary-report:before {
+	content: "\e610";
+}
+.globicon-file-pdf:before {
+	content: "\e616";
+}
+.globicon-file-zip:before {
+	content: "\e617";
+}
+.globicon-file:before {
+	content: "\e618";
+}
+.globicon-filter:before {
+	content: "\e619";
+}
+.globicon-download:before {
+	content: "\e61a";
+}
+.globicon-stopwatch:before {
+	content: "\e61b";
+}
+.globicon-list:before {
+	content: "\e61c";
+}
+.globicon-search:before {
+	content: "\e61d";
+}
+.globicon-add:before {
+	content: "\e61e";
+}
+.globicon-question:before {
+	content: "\e61f";
+}
+.globicon-help:before {
+	content: "\e621";
+}
+.globicon-remove:before {
+	content: "\e622";
+}
+.globicon-sort-alpha-asc:before {
+	content: "\e623";
+}
+.globicon-sort-alpha-desc:before {
+	content: "\e624";
+}
+.globicon-table:before {
+	content: "\e625";
+}
+.globicon-chart-bar:before {
+	content: "\e626";
+}
+.globicon-chart-line:before {
+	content: "\e627";
+}
+.globicon-chart-pie:before {
+	content: "\e628";
+}
+.globicon-filter-move:before {
+	content: "\e629";
+}
+.globicon-move-left:before {
+	content: "\e62a";
+}
+.globicon-move-right:before {
+	content: "\e62b";
+}
+.globicon-move-left-all:before {
+	content: "\e62c";
+}
+.globicon-move-right-all:before {
+	content: "\e62d";
+}
+.globicon-move-down:before {
+	content: "\e62e";
+}
+.globicon-move-up:before {
+	content: "\e62f";
+}
+.globicon-compare:before {
+	content: "\e630";
+}
+.globicon-snooze:before {
+	content: "\e600";
+}
+.globicon-adjust:before {
+	content: "\e620";
+}
+.globicon-refresh:before {
+	content: "\e631";
+}
+.globicon-user:before {
+	content: "\e632";
+}
+.globicon-file-csv:before {
+	content: "\e633";
+}
+.globicon-file-xml:before {
+	content: "\e634";
+}
+.globicon-billed:before {
+	content: "\e635";
+}
+.globicon-currency:before {
+	content: "\e636";
+}
