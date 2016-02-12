@@ -1,0 +1,129 @@
+@charset "utf-8";
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.grid-cell {
+	flex: 0 0 100%;
+}
+
+@media (min-width:768px){
+	.grid-cell {
+		flex: 1;
+	}
+}
+
+
+.grid-flex-cells > .grid-cell {
+  display: flex;
+}
+
+.grid-top {
+  align-items: flex-start;
+}
+
+.grid-bottom {
+  align-items: flex-end;
+}
+
+.grid-center {
+  align-items: center;
+}
+
+.grid-justify-center {
+  justify-content: center;
+}
+
+.grid-cell-top {
+  align-self: flex-start;
+}
+
+.grid-cell-bottom {
+  align-self: flex-end;
+}
+
+.grid-cell-center {
+  align-self: center;
+}
+
+.grid-cell-autoSize {
+  flex: none;
+}
+
+.grid-fit > .grid-cell {
+	flex: 0 0 100%;
+}
+
+@media (min-width:768px){
+	.grid-fit > .grid-cell {
+		flex: 1;
+	}
+}
+
+.grid-100 > .grid-cell {
+  flex: 0 0 100%;
+}
+
+.grid-50 > .grid-cell {
+  flex: 0 0 50%;
+}
+
+.grid-33 > .grid-cell {
+  flex: 0 0 33.3333%;
+}
+
+.grid-25 > .grid-cell {
+  flex: 0 0 25%;
+}
+
+.grid-gutters {
+  margin: -1em 0 1em -1em;
+}
+.grid-gutters > .grid-cell {
+  padding: 1em 0 0 1em;
+}
+
+.grid-guttersLg {
+  margin: -1.5em 0 1.5em -1.5em;
+}
+.grid-guttersLg > .grid-cell {
+  padding: 1.5em 0 0 1.5em;
+}
+
+.grid-guttersXl {
+  margin: -2em 0 2em -2em;
+}
+.grid-guttersXl > .grid-cell {
+  padding: 2em 0 0 2em;
+}
+
+/*DEMO*/
+/*! normalize.css v3.0.2 | MIT License | git.io/normalize */
+
+
+.u-textCenter{text-align:center!important}
+
+.u-textLeft{text-align:left!important}
+
+.u-textRight{text-align:right!important}
+
+.panel-default{
+	width:100%;
+	/*padding:.8em 1em 0;*/
+	background:#FFF;
+	border-radius:3px;
+	box-shadow: #bbb 0px 3px 0px;
+}
+
+.panel-default::after{content:'\00a0';	
+	display:block;	
+	margin-top:1em;	
+	height:0;	
+	visibility:hidden
+}
+
