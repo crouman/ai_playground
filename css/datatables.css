@@ -1,9 +1,0 @@
-/*datatables style overrides*/
-
-table.dataTable thead th, table.dataTable thead td{
-	border-bottom:0;
-}
-
-.dataTables_scrollBody {
-  border-bottom: 0 !important;
-}
