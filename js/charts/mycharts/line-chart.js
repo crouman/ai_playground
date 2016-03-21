@@ -21,7 +21,7 @@ var randomScalingFactor = function(){ return Math.round(Math.random()*100)};
 				pointHighlightFill : "#fff",
 				pointHighlightStroke : "rgba(151,187,205,1)",
 				data : [randomScalingFactor(),randomScalingFactor(),randomScalingFactor(),randomScalingFactor(),randomScalingFactor(),randomScalingFactor(),randomScalingFactor()]
-			}			
+			}
 		]
 
 	}

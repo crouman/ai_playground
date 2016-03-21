@@ -1,5 +1,7 @@
 $(document).ready(function(){
 	
+	
+	
 	/***
 	FILTER HEIGHT 
 	***/
@@ -64,29 +66,24 @@ $(document).ready(function(){
 	$(".filter-btn, .filter-label").click(function(){
 		//open on click
 		if($(this).parent().hasClass('closed')){
-			//remove .closed and add the bootstrap class col-md-3 and set to .open			
-			//$(".filter, .filter-container").animate({width:'25%'}, 250, function afterAnim(){
-				$(".filter-container").addClass("grow-1");
-				$(".filter").removeClass("closed").addClass("open");//swap classes
-				$(".filter-content").fadeIn(150);//display filter content
-				//$(".filter").css("width", getFilterWidth("open"))//set the width of the filter
-			//});
-			
-		}//end if
+			//remove .closed and add the bootstrap class col-md-3 and set to .open
+			$(".filter").removeClass("closed").addClass("open");
+			$(".filter-container").addClass("col-md-3");
+			$(".filter-content").css("display", "block");
+			//set the width of the filter
+			$(".filter").css("width", getFilterWidth("open"));
+			//remove the bootstrap class col-md-12 and set to col-md-9, and tweak the padding (we could do this more eleganntly I'm sure)
+			$(".main").removeClass("col-md-12").addClass("col-md-9").css("padding-left", "15px");
+		}
 		//close on click; do the opposite of above
-		else {				
-		//	$(".filter, .filter-container").animate({width:'40px'}, 250, function afterAnim(){
-				$(".filter").removeClass("open").addClass("closed")
-				$(".filter-container").removeAttr('style').removeClass("grow-1")
-				//$(".filter").css("width", getFilterWidth("closed"))//set the width of the filter
-			//	$(".main").animate({}, 0, function afterMainAnim(){//animate the main content at same time
-				//	$(".main").removeAttr('style')		
-				//});
-			//});			
-			
-			$(".filter-content").fadeOut(150)
-					
-		}//end else
+		else {			
+			$(".filter").removeClass("open").addClass("closed");
+			$(".filter-container").removeClass("col-md-3");
+			$(".filter-content").css("display", "none");
+			$(".main").removeClass("col-md-9").addClass("col-md-12").css("padding-left", "55px");			
+			//set the width of the filter
+			$(".filter").css("width", getFilterWidth("closed"));
+		}
 	});
 	
 /*	$(window).resize(function(){
