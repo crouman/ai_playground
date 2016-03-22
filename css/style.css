@@ -27,10 +27,6 @@ NAVBAR
 .navbar-inverse .navbar-nav>.active>a{
 	background-color:#777;
 }
-.navbar-brand img{
-	width:20px;
-}
-
 .navbar-inverse .navbar-nav>.active>a:hover{
 	background-color:#333;
 }
